@@ -1,0 +1,20 @@
+ul {
+    background-color: rgb(145, 145, 145);
+    border: 2px dashed dimgray;
+    margin: 4%;
+    list-style-type:none;
+    border-radius: 15px;
+    box-shadow: -2px -2px 8px 8px rgb(252, 170, 170);
+}
+li {
+    /* background-color: rgb(248, 244, 244); */
+    background: linear-gradient(to right,rgb(177, 55, 55),rgb(248, 244, 244) 15%);
+    border: 2px solid rgb(190, 37, 37);
+    border-radius: 15px;
+    padding-bottom: 4.5rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 96%;
+    box-shadow: 6px 12px 10px #6b6b6b;
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import ArticleListItem from '../ArticleListItem/ArticleListItem';
-
+import "./ArticleList.module.css";
 const ArticleList = props => {
   if(props.articles===undefined||props.artiles===null){
     return <h1>"You have no data!"</h1>
@@ -9,7 +9,8 @@ const ArticleList = props => {
     return (
       <ul>
         {props.articles.map(article => (
-          <li key={article.slug}><ArticleListItem article = {article}/>
+          <li key={article.slug}>
+            <ArticleListItem article = {article}/>
           </li>
         ))}
       </ul>
